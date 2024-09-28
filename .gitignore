@@ -1,0 +1,5 @@
+poc/itrace*
+poc/pin.log
+poc/return_addresses.out
+poc/simulation_results.out
+poc/std_redirect.text
