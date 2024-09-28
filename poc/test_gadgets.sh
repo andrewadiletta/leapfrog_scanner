@@ -4,6 +4,9 @@ TOOL_PATH="/home/andrew/Jumbo_Flip/pin/pin-3.28-98749-g6643ecee5-gcc-linux/sourc
 
 COMMAND="poc_binary/poc_binary"
 
+# make the working directory the directory this script is in
+cd "$(dirname "$0")"
+
 # disable ASLR
 echo 0 | sudo tee /proc/sys/kernel/randomize_va_space
 

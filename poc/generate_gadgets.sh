@@ -4,6 +4,10 @@ TOOL_PATH="../pin-3.28/source/tools/ManualExamples/obj-intel64/itrace_simulate.s
 
 COMMAND="poc_binary/poc_binary"
 
+# make the working directory the directory this script is in
+cd "$(dirname "$0")"
+
+
 # disable ASLR
 echo 0 | sudo tee /proc/sys/kernel/randomize_va_space
 
