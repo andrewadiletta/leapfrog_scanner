@@ -7,6 +7,16 @@ In the poc folder, you will see 3 bash scripts:
 2. test_gadget.sh
 3. kill_scanners.sh
 
+# Building the pin tool
+
+The pin tool is included in this repo. To build the *.so library files run the following:
+```
+cd pin-3.28/source/tools/ManualExamples
+make
+```
+
+# Finding Potential Leapfrog Gadgets
+
 First, you must run the generate_gadget.sh script. Inside the script there is a ```COMMAND``` variable. You can change that to whatever you want, by default it it set to the poc binary. 
 
 ```
@@ -20,6 +30,8 @@ This will generate 3 files:
 1. itrace.in (this contains a list of source -> jump addresses)
 2. itrace.out (this contains the actual process trace)
 3. return_addresses.txt (this contains all the PC addresses)
+
+# Testing the Leapfrog Gadgets
 
 Next, you can run the test_gadgets.sh script. This test all the source -> jump addresses in the itrace.in file. 
 
