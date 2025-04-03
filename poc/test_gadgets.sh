@@ -1,6 +1,6 @@
 #!/bin/bash
-PIN_PATH="/home/andrew/Jumbo_Flip/pin/pin-3.28-98749-g6643ecee5-gcc-linux/pin"
-TOOL_PATH="/home/andrew/Jumbo_Flip/pin/pin-3.28-98749-g6643ecee5-gcc-linux/source/tools/ManualExamples/obj-intel64/itrace_simulate_caner.so"
+PIN_PATH="PIN_PATH/HERE/pin"
+TOOL_PATH="PIN_PATH/HERE/source/tools/ManualExamples/obj-intel64/itrace_simulate_caner.so"
 
 COMMAND="poc_binary/poc_binary"
 
