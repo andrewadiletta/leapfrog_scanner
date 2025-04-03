@@ -1,6 +1,6 @@
 #!/bin/bash
-PIN_PATH="PIN_PATH/HERE/pin"
-TOOL_PATH="PIN_PATH/HERE/source/tools/ManualExamples/obj-intel64/itrace_simulate_caner.so"
+PIN_PATH="../pin-3.28/pin"
+TOOL_PATH="../pin-3.28/source/tools/ManualExamples/obj-intel64/itrace_simulate_caner.so"
 
 COMMAND="poc_binary/poc_binary"
 
