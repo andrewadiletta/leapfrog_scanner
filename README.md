@@ -49,3 +49,11 @@ This will generate a few files, including:
 Look at the stdout_redirect.txt file and do a search for the output you are looking for if the leapfrog gadet was successful.
 
 Note that this script is hard to kill, so I included a kill_scanners.sh script that will kill all the scanners. 
+
+# Disclaimer:
+
+Andrew Adiletta's affiliation with The MITRE Corporation is provided for identification purposes only, and is not intended to convey or imply MITRE's concurrence with, or support for, the positions, opinions, or viewpoints expressed by the author. All references are public domain.
+Approved for Public Release; Distribution Unlimited. Public Release Case Number 25-1091.
+
+©2025 The MITRE Corporation. ALL RIGHTS RESERVED.
+
